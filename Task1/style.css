@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+body{
+    margin: 1rem 3rem 1rem 3rem;
+}
+.header{
+    height: 8%;
+    width: 100%;
+    border: 2px solid yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(250,250,250, 0.8);
+    filter: drop-shadow(12px);
+    z-index: 100;
+}
+.header img{
+    height: 100%;
+    width: 20%;
+    padding-left: 5rem;
+}
+.firstpartpadding{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.partone{
+    height: 30%;
+    width: 100%;
+    border: 2px solid none;
+    position: relative;
+}
+.partone img{
+    height: 30rem;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: transparent;
+}
+.text h1,h4,p{
+    background-color: transparent;
+}
+.btn{
+    height: 2rem;
+    width: 40%;
+    background-color: rgba(0,200,0, 0.8);
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}
+.btn i{
+    background-color:transparent;
+    font-weight: 600;
+    color: white;
+}
+.btn:hover{
+    background-color: rgba(0,170,0, 0.8);
+    cursor: pointer;
+}
+
+.parttwo{
+    height: 30%;
+    width: 100%;
+    border: 2px solid none;
+}
+.subpartone{
+    display: flex;
+}
+.subpartone img{
+    height: 100%;
+    width: 30%;
+}
+.subpartone .subtext{
+    padding-left: 1rem;
+    padding-top:5rem;
+}
+#subparttwo{
+    padding-top:15rem;
+}
+#subpartthree{
+    padding-top:15rem;
+}
+.subbtn{
+    height: 2rem;
+    width: 50%;
+    background-color: rgba(0,200,0, 0.8);
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}
+.subbtn:hover{
+    background-color: rgba(0,170,0, 0.8);
+    cursor: pointer;
+}
+.space{
+    padding-top: 4rem;
+}
+.link{
+    padding-left: 1rem;
+}
+.link i{
+    font-size: 20px;
+    padding: 5px 5px;
+    border: 1px solid rgb(206, 214, 230);
+}
+.link a{
+    display: block;
+    color: green;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}
+
+.boxthree{
+    border: 2px solid none;
+    padding-top: 10rem;
+}
+.partthree{
+    height:40%;
+    width: 100%;
+    display: flex;
+}
+.partthree a{
+    text-align: center;
+    color: green;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.subpartthree img{
+    height: 35%;
+    width:60%;
+    border-radius: 35%;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.subpartthree .pictext{
+    text-align: center;
+    width: 60%;
+}
+.seemore{
+    text-align: center;
+    font-size: 1.12rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.partfour{
+    padding-top: 2rem;
+}
+.ultrapart img{
+    height: 100%;
+    width: 100%;
+}
+.ultrapart{
+    position: relative;
+}
+.head{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.ultrapart h2{
+    height: 2.5rem;
+    width: 100%;
+    color: red;
+    font-size: 1.8rem;
+    background-color: transparent;
+}
+.loc{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+.con{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+.ub{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+.ultrapart h1{
+    position: absolute;
+    background-color: transparent;
+    bottom: 10%;
+    color: white;
+}
+.ultrapart h3{
+    position: absolute;
+    background-color: transparent;
+    color: white;
+}
